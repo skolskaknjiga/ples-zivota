@@ -1012,7 +1012,18 @@ body .transparent-header #logo a img.white {
 	}
 }
 
+@media (max-width: 991px) {
+	#logo {
+		padding: 0px;
+	}
+}
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991px), not all, not all, not all, only screen and (max-width: 991px) and (min-resolution: 192dpi), only screen and (max-width: 991px) and (min-resolution: 2dppx) {
+	#logo{
+		display:block!important;
+		height: 50px!important;
+	}
+}
 
 
 
