@@ -991,9 +991,28 @@ body .transparent-header #logo a img.white {
 
 @media (min-width: 992px) {
 	#header.transparent-header:not(.sticky-header) #primary-menu > ul > li > a {
-	color: #fff;
+		color: #fff;
 	}
 }
+
+@media (max-width: 992px) {
+	body .transparent-header:not(.sticky-header) #logo a img.black {
+		display: block;
+	}
+	body .transparent-header #logo a img.white {
+		display: none;
+	}	
+}
+@media (min-width: 992px) {
+	body .transparent-header:not(.sticky-header) #logo a img.black {
+		display: none;
+	}
+	body .transparent-header #logo a img.white {
+		display: block;
+	}
+}
+
+
 
 @media screen and (min-width: 992px ) and (max-width: 1200px) {
 	#logo img {
