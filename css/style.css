@@ -572,6 +572,46 @@ span.middot {
 	background-color: #F9F9F9;
 	overflow: hidden;
 }
+@media (max-width: 765px) {
+	.content-wrap > div{
+		padding: 250px 0px;
+	}
+}
+
+.texts{
+	height: 800px;
+	padding: 0px;
+}
+.one-text{
+	height:400px;
+}
+.col-md-6{
+	padding: 0px;
+}
+
+@media (max-width: 992px) {
+	
+	.one-text{
+		height: 150px;
+	}
+	.emphasis-title > div > h2 {
+		font-size: 25px!important;
+	}
+	.col-md-6{
+		margin-top: -20px;
+		padding-bottom: 50px;
+	}
+	.naslov {
+		padding: 0px;
+	}
+	.naslov p {
+		margin: 0px;
+	}
+	p{
+		margin: 0px;
+	}
+}
+
 
 .parallax {
 	background-color: transparent;
@@ -1025,7 +1065,28 @@ body .transparent-header #logo a img.white {
 	}
 }
 
-
+@media(max-width: 992px) {
+	.left-position {
+		margin-left: 0px;
+	}
+	#logo a img.black {
+		margin-left: 32.5px;
+	}
+	#logo a img.white {
+		margin-left: 32.5px;
+	}
+	.container #primary-menu-trigger{
+		margin-top: -10px;
+	}
+	#logo a img.black{
+		margin-top: -13px;
+	}
+	
+	.container .col_three_fifth .emphasis-title{
+		margin: 0px;
+	}
+	
+}
 
 #header.semi-transparent { background-color: rgba(255,255,255,0.8); }
 
@@ -1193,7 +1254,7 @@ body.stretched #header.full-header .container {
 	opacity: 0;
 	pointer-events: none;
 	cursor: pointer;
-	font-size: 14px;
+	font-size: 20px;
 	position: absolute;
 	top: 50%;
 	margin-top: -25px;
