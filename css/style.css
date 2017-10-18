@@ -572,10 +572,10 @@ span.middot {
 	background-color: #F9F9F9;
 	overflow: hidden;
 }
-@media (max-width: 765px) {
-	.content-wrap > div{
+@media (max-width: 768px) {
+	/*.content-wrap > div{
 		padding: 250px 0px;
-	}
+	}*/
 }
 
 .texts{
@@ -589,6 +589,18 @@ span.middot {
 	padding: 0px;
 }
 
+.text-title{
+	font-size: 40px!important;
+}
+
+
+.author{
+	margin-bottom: 0px;
+}
+.texts_drugi{
+	height: 400px;
+}
+
 @media (max-width: 992px) {
 	
 	.one-text{
@@ -598,18 +610,46 @@ span.middot {
 		font-size: 25px!important;
 	}
 	.col-md-6{
-		margin-top: -20px;
-		padding-bottom: 50px;
+		padding-bottom: 75px;
+		margin-top: 25px;
 	}
 	.naslov {
-		padding: 0px;
+		padding-top: 5px!important;
+		padding-bottom: 10px!important;
+		margin: 0px!important;
 	}
 	.naslov p {
-		margin: 0px;
+		
 	}
 	p{
 		margin: 0px;
 	}
+	.prva{
+		height: 1000px!important;
+	}
+	.button-custom{
+		padding: 0px 16px!important;
+		font-size: 14px!important;
+		height: 40px!important;
+		line-height: 38px!important;
+	}
+	
+	.texts{
+		height: 1200px;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	.texts_drugi{
+		height: 800px;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+	
+}
+.naslov {
+	padding-top: 5px!important;
+	padding-bottom: 10px!important;
+	margin: 0px!important;
 }
 
 
