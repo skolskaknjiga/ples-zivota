@@ -601,6 +601,18 @@ span.middot {
 	height: 400px;
 }
 
+.contact_custom{
+	height: 100px;
+}
+
+.text-title-info{
+	font-size: 30px!important;
+}
+
+.text-title-info a{
+	color: #fff;
+}
+
 @media (max-width: 992px) {
 	
 	.one-text{
