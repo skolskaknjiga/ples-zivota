@@ -612,6 +612,9 @@ span.middot {
 .text-title-info a{
 	color: #fff;
 }
+.emphasis-title div {
+	padding: 0px 30px;
+}
 
 @media (max-width: 992px) {
 	
@@ -620,6 +623,9 @@ span.middot {
 	}
 	.emphasis-title > div > h2 {
 		font-size: 25px!important;
+	}
+	.emphasis-title div {
+		padding: 0px;
 	}
 	.col-md-6{
 		padding-bottom: 75px;
@@ -656,8 +662,17 @@ span.middot {
 		margin-top: 60px;
 		margin-bottom: 60px;
 	}
+	.col-md-4{
+		padding-bottom: 80px;
+	}
 	
 }
+@media (max-width: 480px) {
+	.col-md-4{
+		padding-bottom: 120px;
+	}
+}
+
 .naslov {
 	padding-top: 5px!important;
 	padding-bottom: 10px!important;
